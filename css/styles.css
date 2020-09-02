@@ -23,7 +23,7 @@ body {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .link {
   text-decoration: none;
