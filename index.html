@@ -8,47 +8,55 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="page">
     <!-- Шапка -->
     <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web <span class="logo-up">Studio</span></a
-        >
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="site-nav-w link">Студия</a></li>
-          <li>
-            <a href="./portfolio.html" class="site-nav-bot link">Портфолио</a>
-          </li>
-          <li><a href="" class="site-nav-bot link">Контакты</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="kontakt list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="kontaсt-inf link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="kontaсt-inf link"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="main-nav container">
+        <nav class="nav-site">
+          <a href="./index.html" class="logo link"
+            >Web <span class="logo-up">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="site-nav-w link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="site-nav-bot link">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="" class="site-nav-bot link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="kontakt list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="kontaсt-inf link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="kontaсt-inf link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- hero -->
       <section>
-        <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button">Заказать услугу</button>
+        <div class="hero container">
+          <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Наши плюс -->
-      <section>
+      <section class="container">
         <h2 class="title visually-hidden">Наши переваги</h2>
         <ul class="pros list">
           <li>
@@ -82,7 +90,7 @@
         </ul>
       </section>
       <!-- Чем мы занимаемся -->
-      <section>
+      <section class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="examples list">
           <li>
@@ -113,49 +121,51 @@
       </section>
       <!-- Наша команда -->
       <section class="teambg">
-        <h2 class="title">Наша команда</h2>
-        <ul class="team list">
-          <li>
-            <img
-              src="./image/team/igor.jpg"
-              alt="Фото Игорь Демьяненко"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Игорь Демьяненко</h3>
-            <p lang="en" class="team-position">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="./image/team/olga.jpg"
-              alt="Фото Ольга Репина"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Ольга Репина</h3>
-            <p lang="en" class="team-position">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./image/team/nikolya.jpg"
-              alt="Фото Николай Тарасов"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Николай Тарасов</h3>
-            <p lang="en" class="team-position">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./image/team/miha.jpg"
-              alt="Фото  Михаил Ермаков"
-              width="270"
-              height="260"
-            />
-            <h3 class="team-name">Михаил Ермаков</h3>
-            <p lang="en" class="team-position">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="title">Наша команда</h2>
+          <ul class="team list">
+            <li>
+              <img
+                src="./image/team/igor.jpg"
+                alt="Фото Игорь Демьяненко"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Игорь Демьяненко</h3>
+              <p lang="en" class="team-position">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="./image/team/olga.jpg"
+                alt="Фото Ольга Репина"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Ольга Репина</h3>
+              <p lang="en" class="team-position">Frontend Developer</p>
+            </li>
+            <li>
+              <img
+                src="./image/team/nikolya.jpg"
+                alt="Фото Николай Тарасов"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Николай Тарасов</h3>
+              <p lang="en" class="team-position">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./image/team/miha.jpg"
+                alt="Фото  Михаил Ермаков"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-name">Михаил Ермаков</h3>
+              <p lang="en" class="team-position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Подвал -->
