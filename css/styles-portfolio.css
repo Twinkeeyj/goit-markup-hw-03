@@ -6,6 +6,7 @@
   --primary-begf-color: #2f303a;
   --primary-begf-team: #f5f4fa;
   --font-famali: Roboto, sans-serif;
+  --font-famali-logo: Raleway, sans-serif;
 }
 body {
   color: var(--accent-color);
@@ -16,11 +17,21 @@ body {
 * {
   box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid red;
+}
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 button {
   cursor: pointer;
@@ -35,10 +46,26 @@ button {
   width: 1px !important;
   overflow: hidden;
 }
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: coral 15px;
+}
 /* ====header==== */
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 94px;
+}
+.nav-site {
+  display: flex;
+  align-items: center;
+}
 .logo {
   color: var(--title-text-color);
-  font-family: var(--font-famali);
+  font-family: var(--font-famali-logo);
   font-size: 26px;
   line-height: 1.19;
 }
@@ -46,17 +73,21 @@ button {
   color: var(--accent-color);
 }
 .site-nav-bot {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.02em;
-  color: var(--primary-begf-color);
+  color: var(--accent-color);
 }
 .site-nav-bot:hover,
 .site-nav-bot:focus {
   color: var(--title-text-color);
 }
-.kontakt-inf {
+.kontaсt-inf {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -64,11 +95,22 @@ button {
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
 }
-.kontakt-inf:hover,
-.kontakt-inf:focus {
-  color: var(--title-text-color);
+.kontakt .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.kontakt .item + .item {
+  margin-left: 50px;
+}
+.kontakt {
+  display: flex;
+  margin-left: auto;
 }
 .site-nav-w {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42;
@@ -78,6 +120,13 @@ button {
 .kontaсt-inf:hover,
 .kontaсt-inf:focus {
   color: var(--title-text-color);
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 /* ====end header==== */
 /* ====hero==== */
@@ -89,6 +138,9 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  border-radius: 4px;
+  padding: 0px 20px;
+  display: inline-block;
 }
 .but:hover,
 .but:focus {
@@ -101,6 +153,8 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--accent-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .project-fun {
   font-weight: 400;
@@ -109,10 +163,42 @@ button {
   letter-spacing: 0.03em;
   color: var(--primari-text-color);
 }
+.project {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project .item {
+  width: 370;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.project .item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+.project .item:nth-child(3n) {
+  margin-right: 0;
+}
+.meny {
+  display: flex;
+  justify-content: center;
+}
+.meny .item + .item {
+  margin-left: 8px;
+}
+.meny {
+  margin-bottom: 56px;
+}
+.exm-work {
+  padding-bottom: 94px;
+}
+
 /* ====end hero==== */
+
 /* ====foother==== */
 .footer {
   background-color: var(--primary-begf-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .logo-d {
   color: var(--primary-beg-color);
@@ -140,5 +226,18 @@ button {
 .address-ul:hover,
 .address-ul:focus {
   color: var(--title-text-color);
+}
+.footer-logo {
+  display: flex;
+  margin-bottom: 20px;
+}
+.address .item {
+  display: flex;
+}
+.address .item {
+  margin-bottom: 9px;
+}
+.address .item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 /* ====end foother==== */

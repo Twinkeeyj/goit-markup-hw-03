@@ -156,6 +156,9 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
 }
 
 /* ====end hero==== */
@@ -267,6 +270,8 @@ button {
 /* ====foother==== */
 .footer {
   background-color: var(--primary-begf-color);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .logo-d {
   color: var(--primary-beg-color);
@@ -294,6 +299,19 @@ button {
 .address-ul:hover,
 .address-ul:focus {
   color: var(--title-text-color);
+}
+.footer-logo {
+  display: flex;
+  margin-bottom: 20px;
+}
+.address .item {
+  display: flex;
+}
+.address .item {
+  margin-bottom: 9px;
+}
+.address .item:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 /* ====end foother==== */
