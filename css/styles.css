@@ -254,6 +254,7 @@ img {
 }
 .teambg {
   background-color: var(--primary-begf-team);
+  padding: 94px 0;
 }
 .team {
   display: flex;
