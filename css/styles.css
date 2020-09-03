@@ -133,8 +133,9 @@ button {
 /* ====hero==== */
 .hero {
   text-align: center;
-  /* padding-top: 200px;
-  padding-left: 452px; */
+  /* margin-bottom: 200px;
+  padding-top: 200px; */
+  padding: 200px;
 }
 .hero-text {
   font-weight: 900;
@@ -144,9 +145,9 @@ button {
   letter-spacing: 0.06em;
   color: coral;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .button {
-  margin-top: 30px;
   color: var(--primary-beg-color);
   background-color: var(--title-text-color);
   font-family: var(--font-famali);
@@ -195,6 +196,10 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.eddition {
+  padding: 0px;
+}
+
 /* ====end our pros==== */
 /* ====examples of works==== */
 .title {
