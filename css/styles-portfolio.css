@@ -172,7 +172,7 @@ button {
   flex-wrap: wrap;
 }
 .project .item {
-  width: 370;
+  width: calc((100% - 60) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
