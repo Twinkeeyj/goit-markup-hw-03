@@ -141,14 +141,18 @@ img {
 /* ====end header==== */
 /* ====hero==== */
 .hero {
+  /* display: flex; */
   text-align: center;
+
   margin: auto;
+  /* margin: auto; */
 }
 .f-hero {
-  height: min-content 600px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
+  margin: auto;
+  width: 696px;
 }
 .hero-text {
   font-weight: 900;
