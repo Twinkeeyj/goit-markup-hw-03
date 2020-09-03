@@ -48,8 +48,8 @@ button {
 }
 .container {
   width: 1170px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
   border: coral 15px;
 }
@@ -137,7 +137,7 @@ img {
   text-align: center;
   /* margin-bottom: 200px;
   padding-top: 200px; */
-  padding: 200px;
+  padding: 200px 0px;
 }
 .hero-text {
   font-weight: 900;
