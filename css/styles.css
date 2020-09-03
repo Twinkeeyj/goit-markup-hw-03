@@ -327,11 +327,14 @@ img {
 .address .item {
   margin-bottom: 9px;
 }
-.address .item:nth-last-child(-n + 3) {
+.address .item:nth-last-child(-n + 1) {
   margin-bottom: 0px;
 }
+
 .footer-1 {
   width: 270px;
 }
 
 /* ====end foother==== */
+.team .item:nth-child(4) {
+  margin-right: 0;
