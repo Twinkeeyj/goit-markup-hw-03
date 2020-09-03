@@ -14,7 +14,7 @@ body {
   font-family: var(--font-famali);
   letter-spacing: 0.03em;
 }
-html{
+html {
   box-sizing: border-box;
 }
 *,
@@ -51,7 +51,6 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
 }
 img {
   display: block;
@@ -338,5 +337,3 @@ img {
 }
 
 /* ====end foother==== */
-.team .item:nth-child(4) {
- 
