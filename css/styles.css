@@ -142,10 +142,13 @@ img {
 /* ====hero==== */
 .hero {
   text-align: center;
-  /* margin-bottom: 200px;
-  padding-top: 200px; */
-  padding: 200px 0px;
-  width: 700px;
+  margin: auto;
+}
+.f-hero {
+  height: min-content 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
 }
 .hero-text {
   font-weight: 900;
