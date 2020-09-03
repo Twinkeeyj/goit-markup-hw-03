@@ -14,7 +14,7 @@ body {
   font-family: var(--font-famali);
   letter-spacing: 0.03em;
 }
-* {
+html {
   box-sizing: border-box;
 }
 *,
@@ -47,11 +47,10 @@ button {
   overflow: hidden;
 }
 .container {
-  width: 1170px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
-  border: coral 15px;
 }
 img {
   display: block;
@@ -176,7 +175,7 @@ img {
   flex-wrap: wrap;
 }
 .project .item {
-  width: calc((100% - 60) / 3);
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
