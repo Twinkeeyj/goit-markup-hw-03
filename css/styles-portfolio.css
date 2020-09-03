@@ -96,6 +96,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primari-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .kontakt .item {
   padding-top: 32px;
@@ -129,6 +131,9 @@ img {
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
+}
+.line {
+  border-bottom: 1px solid #eeeeee;
 }
 /* ====end header==== */
 /* ====hero==== */
