@@ -131,7 +131,9 @@ img {
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-
+.line {
+  border-bottom: 1px solid #eeeeee;
+}
 /* ====end header==== */
 /* ====hero==== */
 .hero {
