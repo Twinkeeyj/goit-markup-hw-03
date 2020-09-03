@@ -257,7 +257,7 @@ img {
 .address .item {
   margin-bottom: 9px;
 }
-.address .item:nth-last-child(-n + 3) {
+.address .item:nth-last-child(-n + 1) {
   margin-bottom: 0px;
 }
 .footer-1 {
